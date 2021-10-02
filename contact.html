@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="text-center text-6xl font-bold bg-gray-800 text-white p-10">CONTACT</h1>
+  </header>
+   
+    <main class="xl:p-0   p-10 " >
+        <div class="container mx-auto xl:flex " >
+          <div class="w-3/6">
+            <form action="" >
+                <div class="py-12 ">
+                    <h2 class="text-3xl font-bold">Contact Your Doctor</h2>
+                    <div class="mt-8 max-w-md">
+                      <div class="grid grid-cols-1 gap-6">
+                        <label class="block">
+                          <span class="text-gray-700">Full name</span>
+                          <input id="name" type="text" class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black" placeholder="">
+                        </label>
+                        <label class="block">
+                          <span class="text-gray-700">Email address</span>
+                          <input id="email" type="email" class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black" placeholder="aquib@gmail.com">
+                        </label>
+                        <label class="block">
+                          <span class="text-gray-700">When is your event?</span>
+                          <input id="date" type="date" class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black">
+                        </label>
+                        <label class="block">
+                          <span class="text-gray-700">Which Hospital You Want?</span>
+                          <select id="hospital" class="block w-full mt-0 px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black">
+                            <option>Dr. Md. Sirasjul Islam</option>
+                            <option>Dr. Nazrul Islam</option>
+                            <option>Dr. Khan Golam Mostofa</option>
+                            <option>Dr. Niloyma Goldar</option>
+                            <option>Dr. Utpal Kumar Chanda</option>
+                            <option>
+                              Dr.Kabira Roy</option>
+                          </select>
+                        </label>
+                        <label class="block">
+                          <span class="text-gray-700">Which Doctor You Want to Appoint?</span>
+                          <select id="doctor" class="block w-full mt-0 px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black">
+                            <option>Dr. Md. Sirasjul Islam</option>
+                            <option>Dr. Nazrul Islam</option>
+                            <option>Dr. Khan Golam Mostofa</option>
+                            <option>Dr. Niloyma Goldar</option>
+                            <option>Dr. Utpal Kumar Chanda</option>
+                            <option>
+                              Dr.Kabira Roy</option>
+                          </select>
+                        </label>
+                        <label class="block">
+                          <span class="text-gray-700">Additional details</span>
+                          <textarea id="detail" class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black" rows="2"></textarea>
+                        </label>
+                    
+                        
+                      </div>
+
+                    </div>
+                  </div>
+            </form>
+            <button id="appoint" class="mt-5 px-4 py-2 bg-blue-500 text-white font-bold rounded-lg mb-5">Appoint</button>
+          </div>
+           
+            <div id="appointDiv" class="w-3/6 py-12">
+              <h2 class="text-3xl font-bold">Appointments</h2>
+               <article>
+                <p>
+                </p>
+               </article>
+            </div>
+        </div>
+    </main>
+    <footer>
+       
+            <div class="bg-gray-800 h-36 flex items-end justify-center">
+                 <p class="text-center text-white font-semibold">&copy; by aquib and hospital venture 2021</p>
+            </div>
+           
+       
+        <script src="contact.js"></script>
+        
+    </footer>
+</body>
+</html>

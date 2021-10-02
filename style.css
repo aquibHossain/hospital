@@ -1,0 +1,15 @@
+.appointmentText{
+    background-image:linear-gradient(rgb(43, 82, 200),rgb(107, 151, 245));
+    margin-top: 1.25rem;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    box-shadow: 4px 5px 10px gray;
+}
+.value{
+    font-size: 1.25em;
+    font-weight: bold;
+   
+}
